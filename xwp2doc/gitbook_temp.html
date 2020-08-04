@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    
+    <title>{{ page_title }}</title>
+
+    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="book">
+        <div class="book-summary">
+            <nav role="navigation">
+                <ul class="summary">
+                    <li><a href="." target="blank" class="gitbook-link"><h2>{{ blog_title }}</h2></a></li>
+                    <li class="divider"></li>
+                    {{ summary }}
+                    <li class="divider"></li>
+                    <li><a href="https://www.python.org/" target="blank" class="gitbook-link">Powered by Python | Theme - GitBook</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="book-body">
+            <div class="body-inner">
+                <div class="book-header" role="navigation">
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                    </h1>
+                </div>
+                <div class="page-wrapper" tabindex="-1" role="main">
+                    <div class="page-inner">
+                        <section class="normal markdown-section">
+                            {{ core }}
+                        </section>
+                    </div>
+                </div>
+            </div>
+            {{ navigation }}
+        </div>
+        <script src="gitbook/gitbook_page.js"></script>
+    </div>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>    
+    <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+    <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+</body>
+
+</html>
