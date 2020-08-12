@@ -6,7 +6,7 @@
 
 ## BlogBus to WordPress
 
-* xbus2wp：BlogBus to WordPress， BlogBus XML转WordPress XML。（重度参考了[ant21](http://blog.huyo.org/?p=336)，[Daniel](http://danielfree.net/archives/634)，[阿七](http://blog.designlinks.cn/blogs/the-way-of-blogbus-to-wordpress.html)的东西）
+* xbus2wp：BlogBus to WordPress， BlogBus XML转WordPress XML。（重度参考了[ant21](http://blog.huyo.org/?p=336)，[Daniel](http://danielfree.net/archives/634)，[阿七](http://blog.designlinks.cn/blogs/the-way-of-blogbus-to-wordpress.html)的东西）。
 
 ## diandian to WordPress
 
@@ -16,3 +16,4 @@
 
 * xwp2doc：WordPress to Document，WordPress XML转基于GitBook风格的静态网站。
 * xwp2hugo：WordPress to Hugo，WordPress XML转基于Hugo格式要求的md文件，只生成md文件哦！
+* xwp2md：WordPress to markdown，WordPress XML转普通md文件，自动生成README.md和SUMMARY.md，可直接用于GitBook。

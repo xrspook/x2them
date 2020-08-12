@@ -24,7 +24,7 @@ xwp2doc转换9000多篇文章只需不到30秒，生成的文件不超过50MB（
 
 
 
-1. 本方法可快速转换WordPress导出的XML文件为GitBook风格的静态网站。（适配WordPress 5.4.2）
+1. 本方法可快速转换WordPress导出的XML文件为GitBook风格的静态网站。（适配WordPress 5.4.2）。
 2. XML导出文件里的正文内容原样输出，不支持多媒体转换搬家，因此对纯文字的blog非常有用，对多媒体很多的blog效果可能非常差，试想多媒体失效后……
 3. 支持自定义首页（markdown格式编写）。无自定义首页时默认输出原blog的基础数据，包括：标题、描述、原网址。
 4. 静态网站的左边目录默认输出WordPress的分类，全部标签的索引放在一个页面里。如果blog里的文章很多，标签很多，请自行想象恐怖程度（举个例子：3000多个标签，7.5万个标题索引放在一个html里，文件大小为7.7MB，打开会非常慢，但能开。应该极少人有这么多文章和这么多标签吧？）。
@@ -38,7 +38,7 @@ xwp2doc转换9000多篇文章只需不到30秒，生成的文件不超过50MB（
 
 1. 安装python3，并配置好环境（请自行脑补）。
 
-2. xwp2doc需要额外安装两个模块：jinja2（模板套用），markdown（md文件转换）
+2. xwp2doc需要额外安装两个模块：jinja2（模板套用），markdown（md文件转换）。
 
 	```
 	pip install jinja2
@@ -48,7 +48,7 @@ xwp2doc转换9000多篇文章只需不到30秒，生成的文件不超过50MB（
 	pip install markdown
 	```
 
-3. 下载xwp2doc文件夹，把WordPress导出的XML文件（如：wordpress.xml）放到文件夹内
+3. 下载xwp2doc文件夹，把WordPress导出的XML文件（如：wordpress.xml）放到文件夹内。
 
 4. 若要自定义首页，请执行本步骤，否则请直接跳过。修改xwp2doc文件夹内“diy_index_sample.md”文件名为“diy_index.md”，编辑markdown文件，设计你的首页。
 
