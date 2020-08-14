@@ -124,11 +124,6 @@ def convertDate(date): # 发布时间格式化
     date = time.strftime("%Y-%m-%d %H:%M:%S+08:00", time.localtime(timeStamp))
     return date
 
-def convertUrl(date): # 发布时间转网址
-    timeStamp = convertTimeStamp(date)
-    url = '/post/' + str(timeStamp)
-    return url
-
 def convertMdName(date): # 发布时间转网址
     timeStamp = convertTimeStamp(date)
     date = time.strftime("%Y-%m-%d_%H%M%S", time.localtime(timeStamp)) + '.md'
